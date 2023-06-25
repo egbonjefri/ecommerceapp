@@ -1,0 +1,30 @@
+/* Hekto */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Pacifico&display=swap');
+
+.toolbar{
+position: absolute;
+left: 0%;
+top: 10px;
+bottom: 7.5%;
+width:100%;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-size: 34px;
+line-height: 40px;
+color: #0b0b0c;
+}
+
+.search{
+    top: -5px;
+    border: solid 2px #e7e6ef
+}
+.activeLink{
+    font-weight: bolder;
+    color: red;
+    text-decoration: underline
+  }
+  .navlist{
+   text-decoration: none;
+   color: #151875;
+   display: flex
+  }

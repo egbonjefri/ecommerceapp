@@ -1,0 +1,123 @@
+
+.headerDiv{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f6f5ff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #151875;
+}
+
+
+.product{
+    margin-top: 15rem;
+}
+
+
+
+@media(max-width: 710px){
+    .productImage{
+        flex-direction: column !important;
+    }
+    .text{
+        display: flex !important;
+        width: 75%;
+        margin: 0 auto
+    }
+
+}
+@media(max-width: 540px){
+    .productContainer{
+        display: none !important
+    }
+
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    gap: 20px;
+    width: 70%;
+    box-shadow: 0px 0px 25px 10px #f6f4fd;
+
+}
+.productContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f5ff;
+    height: 25rem;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.productDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+ };
+.productSubDetails{
+    height: 8rem;
+    align-self: baseline;
+    margin: 0px
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px
+}
+.text s {
+    color: red;
+    padding: 5px
+}
+.cart{
+    display: flex;
+    gap: 50px
+}
+.cart button{
+    border: none;
+    background: white;
+    margin-left: -5px
+}
+.cart button:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.productTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 26px;
+    color: #151875;
+}
+.detailList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #151875;
+    font-size: 12px
+
+}
+.moreDetails{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,125 @@
+.products {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 50px;
+    margin-bottom: 10%;
+    
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 5%;
+}
+.grid:hover .hover{
+    display: flex;
+    position: absolute;
+    transform: translateX(-7.5rem)
+
+}
+.grid h6 {
+    margin: 3px
+}
+.products s {
+    color: red;
+    padding: 5px
+}
+.subtitle{
+   font-weight: bolder;
+   font-size: 13px
+}
+.price{
+    font-weight: 550
+}
+.info{
+    color: #151875;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.listItem{
+    display: block;
+    margin: 2rem auto;
+    width: 70%;
+   
+}
+.listDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 13rem;
+    gap: 0rem;
+    padding: 4rem
+   
+}
+.listDisplay:hover{
+    background: rgba(211, 211, 211, 0.378)
+}
+.listDisplay h6{
+    width: 50%;
+    align-self: center;
+    text-align: left;
+    margin: 20px;
+}
+.text h6{
+    color: black;
+
+}
+.text{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.infolist{
+    color: #151875;
+    margin: 10px;
+    gap: 20px;
+    align-self: start;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.productView{
+    position: relative;
+    width: 100%;
+    color: #151875;
+    display: flex;
+    align-items: flex-start;
+    gap: 10%;
+    margin: 2rem
+}
+.viewIcons{
+    position: absolute;
+    display: flex;
+    right: 20%;    
+}
+.link{
+    text-decoration: none;
+    color:  #151875;
+   
+}
+.hover{
+    display:none
+}
+
+@media(max-width: 712px){
+    .text{
+        font-size: 12px !important
+    }
+    .viewIcons{
+       margin-right: -9rem
+    }
+}
+@media(max-width: 502px){
+
+    .viewIcons{
+       display: none
+    }
+}

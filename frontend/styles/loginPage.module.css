@@ -1,0 +1,8 @@
+.navlist{
+    text-decoration: none;
+    color: #151875;
+    display: flex
+   }
+   .loading{
+    display: none
+   }
